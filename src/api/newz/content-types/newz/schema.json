@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newzs",
+  "info": {
+    "singularName": "newz",
+    "pluralName": "newzs",
+    "displayName": "Newz",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
